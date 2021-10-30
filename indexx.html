@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovely Professional University Landing Page</title>
+    <link rel= "stylesheet" href= "style.css">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="C:\Users\Asus\Pictures\LOGO.jpg" width="150" height="100" class="logo"></a>
+            <ul>
+                <li><a href="#">about</a></li>
+                    <li><a href="#">Admissions</a></li>
+                        <li><a href="#">Academics</a></li>
+                            <li><a href="#">Research</a></li>
+                                <li><a href="#">Placements</a></li>
+                                <li><a href="#">Campus Life</a></li>
+                                <li><a href="#">Disciplines</a></li>
+            </ul>
+        </header>   
+<div class="content">
+<div class="textBox">
+    <br>
+    <br>
+    
+    <h2> ADMISSIONS CLOSING SOON </h2>
+    <h3> Last Date To Apply </h3>
+    <h2> <b>31st october 2021 </h2>
+        <hr>
+        <p>Last chance to enroll in a globally ranked university to kickstart your global career.</p>
+        <hr>
+        <div id="apply" class="content-wrapper">
+            <div class="form-wrapper">
+                <img src="assets/bgimg.webp" alt="" class="featured-img">
+                <a href= "#"> Apply Now</a>
+                <form action="https://www.freecodecamp.org/email-submit" method="GET" id="form" class="form">
+                    <input name="email" type="email" id="email" class="input" required placeholder="Enter your email address">
+                    <input type="submit" id="submit" class="button" value="Submit">
+                </form>
+                <section id="contact">
+                    <h1 class="section-heading mb50px">
+                        <span>
+                            <i class="far fa-address-card"></i>
+                        </span>
+                        <span> Contact </span>
+                    </h1>
+                    <div id="contact-container">
+        
+                        <div id="contact-form-container">
+                            <form id="contact-form">
+                                <input id="input-name" name="name" type="text" placeholder="Your Name">
+                                <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
+                                <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
+                                <button class="sub-btn" type="submit">SEND MESSAGE</button>
+                            </form>
+                        </div>
+                        <script>
+                            var slideIndex = 1;
+                            showDivs(slideIndex);
+                            function plusDivs(n) {
+                            showDivs(slideIndex += n);
+                             }
+                            function showDivs(n) {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            if (n > x.length) {slideIndex = 1} if (n < 1) {slideIndex = x.length}for
+                            (i = 0; i < x.length; i++) {x[i].style.display = "none";}
+                            x[slideIndex-1].style.display = "block"; }
+                           </script>
+    
+</body>
+</html>
